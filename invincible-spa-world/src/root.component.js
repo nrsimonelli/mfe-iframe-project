@@ -9,7 +9,7 @@ export default function Root(props) {
         <h1>Hello spicy nuggets</h1>
         <div>This is a single page application</div>
         <div>
-          Otherwise known as <span className="gradient-text">spa.</span>
+          Otherwise known as <span className="gradient-text"><a href="/">spa.</a></span>
         </div>
       </section>
       <section className="buffer">
@@ -30,9 +30,11 @@ export default function Root(props) {
         </div>
       </section>
       <section>
+      <a href="/alazar">
         <div className="button">
-          <a href="/alazar">more</a>{" "}
+          more
         </div>
+        </a>
       </section>
     </main>
   );

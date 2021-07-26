@@ -103,3 +103,8 @@ h1 {
 .button:hover {
   background-image: linear-gradient(to right, #a855f7, #7e22ce);
 }
+
+a, a:link, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
