@@ -30,7 +30,9 @@ export default function Root(props) {
         </div>
       </section>
       <section>
-        <div className="button">more</div>
+        <div className="button">
+          <a href="/alazar">more</a>{" "}
+        </div>
       </section>
     </main>
   );
