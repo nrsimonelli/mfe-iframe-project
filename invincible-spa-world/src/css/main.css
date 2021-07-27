@@ -92,15 +92,22 @@ h1 {
   color: #c084fc;
 }
 
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .button {
   font-size: 1rem;
-  margin: 0 auto;
+  margin: 0 1rem;
   text-align: center;
   width: 8rem;
   padding: 0.5rem;
   border-radius: 9999px;
   background-color: #a855f7;
   border-color: #a855f7;
+  border: 2px solid;
   color: #232425;
   background-image: linear-gradient(to right, #c084fc, #9333ea);
   text-transform: uppercase;
@@ -115,6 +122,16 @@ h1 {
 a, a:link, a:visited, a:hover, a:active {
   color: inherit;
   text-decoration: none;
+}
+
+.button-beta {
+  color: #a855f7;
+  background: #232425;
+  border-color: #a855f7;
+}
+
+.button-beta:hover {
+  background: #1b1c1d;
 }
 
 /*# sourceMappingURL=main.css.map */

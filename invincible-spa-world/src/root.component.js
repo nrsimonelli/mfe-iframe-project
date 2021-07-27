@@ -25,16 +25,25 @@ export default function Root(props) {
           </div>
           <div className="card-container">
             <BsGearFill className="card-image" />
-            <div className="card-text">Autonomus</div>
+            <div className="card-text">Autonomous</div>
           </div>
         </div>
       </section>
       <section>
+        <div className='button-container'>
+        <a href="/">
+        <div className="button button-beta">
+          back
+        </div>
+        </a>
       <a href="/alazar">
         <div className="button">
           more
         </div>
         </a>
+
+        </div>
+      
       </section>
     </main>
   );

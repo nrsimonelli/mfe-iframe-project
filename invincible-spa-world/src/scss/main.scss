@@ -84,15 +84,23 @@ h1 {
   color: $accent-light;
 }
 
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
 .button {
   font-size: 1rem;
-  margin: 0 auto;
+  margin: 0 1rem;
   text-align: center;
   width: 8rem;
   padding: 0.5rem;
   border-radius: 9999px;
   background-color: $accent;
   border-color: $accent;
+  border: 2px solid;
   color: $primary;
   background-image: linear-gradient(to right, $accent-light, $accent-dark);
   text-transform: uppercase;
@@ -107,4 +115,13 @@ h1 {
 a, a:link, a:visited, a:hover, a:active {
   color: inherit;
   text-decoration: none;
+}
+
+.button-beta {
+  color: $accent;
+  background: $primary;
+  border-color: $accent;
+}
+.button-beta:hover {
+background: $primary-dark;
 }
