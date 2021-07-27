@@ -1,4 +1,5 @@
 import { registerApplication, start } from "single-spa";
+import "./root.css";
 
 import {
   constructRoutes,

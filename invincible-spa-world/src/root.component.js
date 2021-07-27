@@ -5,7 +5,7 @@ import { BsGearFill } from "react-icons/bs";
 export default function Root(props) {
   return (
     <main>
-      <section>
+      <section className='top-section'>
         <h1>Hello spicy nuggets</h1>
         <div>This is a single page application</div>
         <div>
