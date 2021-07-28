@@ -1,12 +1,13 @@
 export default function Root(props) {
-  return <section>
+  return <section className='top-section'>
     <h1>Hello World</h1>
-    {props.name} is mounted!
 
-    <button>
+
+
       <a href="/simonelli">
-        More
+        <div className='button'>
+          More
+        </div>
       </a>
-    </button>
     </section>;
 }
