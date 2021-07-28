@@ -40,11 +40,9 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
-    "sass": "^1.35.2",
     "single-spa-react": "^4.2.0"
   }
 }
