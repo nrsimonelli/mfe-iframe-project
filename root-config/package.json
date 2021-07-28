@@ -1,7 +1,7 @@
 {
   "name": "@calabrio/root-config",
   "scripts": {
-    "start": "webpack serve --port 9000 --env isLocal & (cd ../invincible-spa-world && npm start) & (cd ../single-spa-poc && npm start)",
+    "start": "webpack serve --port 9000 --env isLocal & (cd ../invincible-spa-world && npm start) & (cd ../single-spa-poc && npm start) & (cd .. && live-server)",
     "lint": "eslint src --ext js",
     "test": "cross-env BABEL_ENV=test jest --passWithNoTests",
     "format": "prettier --write .",
