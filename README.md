@@ -16,6 +16,8 @@ Details about the concept of a Root Config and Application Registration can be f
 
 - The `invincible-spa-world/` and `single-spa-poc/` directories contain the two microfrontend SPAs that the application contains. These are simply two pages that the user routes between.
 
+- Each of these modules were bootstrapped with the [Create Single SPA CLI](https://single-spa.js.org/docs/create-single-spa/)
+
 ## How To Deploy
 1. Run the `deploy.sh` script\
 2. Navigate to ```localhost:9000``` on your browser of choice to view the application.
